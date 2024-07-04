@@ -1,0 +1,103 @@
+.App {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+form div {
+    margin: 10px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+
+.employee-list {
+    margin-top: 20px;
+}
+
+.employee-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.employee-list li {
+    margin: 10px 0;
+}
+
+.employee-list a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.employee-list a:hover {
+    text-decoration: underline;
+}
+
+.employee-detail {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.employee-detail h2 {
+    margin-bottom: 20px;
+}
+
+.employee-detail ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.employee-detail li {
+    margin: 10px 0;
+}
+
+.employee-detail input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.employee-detail button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.employee-detail button:hover {
+    background-color: #007B9E;
+}
